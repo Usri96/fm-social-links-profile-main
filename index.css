@@ -1,0 +1,51 @@
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(0, 0%, 20%);
+    --grey: hsl(0, 0%, 12%);
+    --dark-grey: hsl(0, 0%, 8%);
+    --paragraph-font-size: 0.875rem;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+html {
+    font-family: Inter;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    line-height: 150%;
+    /* background: var(--dark-grey); */
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    /* background: var(--grey); */
+    outline: 1px solid var(--grey);
+    width: 20rem;
+    height: 30rem;
+    border-radius: 12px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+footer {
+    flex-basis: 2rem;
+    font-size: 1rem;
+}
