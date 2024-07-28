@@ -23,7 +23,7 @@ body {
     display: flex;
     flex-flow: column nowrap;
     line-height: 150%;
-    /* background: var(--dark-grey); */
+    background: var(--dark-grey);
 }
 
 main {
@@ -34,7 +34,7 @@ main {
 }
 
 article {
-    /* background: var(--grey); */
+    background: var(--grey);
     outline: 1px solid var(--grey);
     width: 20rem;
     height: 30rem;
@@ -49,3 +49,57 @@ footer {
     flex-basis: 2rem;
     font-size: 1rem;
 }
+
+.profile {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    align-items: center;
+}
+
+.profile p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--green);
+}
+
+
+.profile .bio {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--white);
+}
+
+
+.profile h1 {
+    color: var(--white);
+    font-size: 1.875rem;
+    font-weight: 600;
+}
+
+
+img {
+    width: 120px;
+    block-size: auto;
+    border-radius: 50%;
+
+}
+
+.social-list {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .list-item {
+    text-decoration: none;
+    background: var(--light-grey);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--white);
+    padding: 0.875rem;
+    border-radius: 5px;
+  }
